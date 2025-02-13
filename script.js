@@ -41,7 +41,7 @@ function checkCollision() {
 			//oneSound.play();  // Play the "one.mp3"
 		}, damageSound.duration * 1000);  // Wait until damageSound is done playing (in seconds)
 
-		if (score >= 6) {
+		if (score >= 3) {
 			gameOver = true; clearInterval(moveInterval); clearInterval(pawMoveInterval);
 			mouse.src = "./dead.png";  mouse.classList.add("dead"); 
 			damageSound.pause();
