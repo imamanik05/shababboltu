@@ -224,10 +224,6 @@ body,
     border-left-style: none;
 }
 
-body {
-    background-repeat: no-repeat;
-}
-
 #target {
     border-bottom-style: none;
 }
